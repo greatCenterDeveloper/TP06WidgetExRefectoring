@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_widget">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="4"
+        android:layout_marginTop="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/thumb_moana"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:background="@drawable/bg_tv"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="android"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="bottom"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Hello. How are you today?"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:paddingTop="8dp"
+                android:gravity="top"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2022.08.26"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"
+            android:gravity="right"
+            android:background="@drawable/bg_tv"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <!-- 1 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana01"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 2 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana02"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 3 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana03"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 4 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana04"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 5 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana05"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 6 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana01"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 7 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana02"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 8 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana03"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 9 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana04"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 10 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana05"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 11 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana01"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 12 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana02"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+
+            <!-- 13 -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/moana03"
+                android:layout_margin="2dp"
+                app:civ_border_width="2dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:background="@drawable/bg_tv"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="androidprimeinfo"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Metro Manila, Philippines"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_overflow"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_more_vert_24"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_center_img"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/newyork" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_heart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_favorite_24"
+            android:layout_margin="4dp"/>
+
+        <ImageView
+            android:id="@+id/iv_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_chat_bubble_outline_24"
+            android:layout_margin="4dp"/>
+
+        <ImageView
+            android:id="@+id/iv_send"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_send_24"
+            android:layout_margin="4dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"/>
+
+        <ImageView
+            android:id="@+id/iv_bookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_arrow_circle_down_24"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_tv"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write your description here..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26 MINUTES AGO"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
